@@ -69,7 +69,7 @@ export default function CartContextProvider({children}){
             
             const ctxValue = {
               items: shoppingCart.items,
-              addItemsToCart : handleAddItemToCart,
+              addItemToCart : handleAddItemToCart,
               updateItemQuantity : handleUpdateCartItemQuantity,
             };
             return<CartContext.Provider value={ctxValue}>
