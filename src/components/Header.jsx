@@ -4,7 +4,7 @@ import CartModal from './CartModal.jsx';
 import { CartContext } from '../store/shoping-cart-context.jsx';
 export default function Header() {
   const modal = useRef();
-
+//----------------------------------------------------------//
   const {items} = useContext(CartContext);
   const cartQuantity = items.length;
 

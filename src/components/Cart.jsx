@@ -3,7 +3,7 @@ import { useContext } from 'react';
 import {CartContext} from '../store/shoping-cart-context'
 export default function Cart() {
 
-
+  //------------------------------------------------------//
   const {items,updateItemQuantity} = useContext(CartContext);
 
   
